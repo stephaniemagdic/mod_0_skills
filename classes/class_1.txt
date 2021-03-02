@@ -1,0 +1,20 @@
+MenuItem (class)
+
+attributes
+
+name (string)
+price (float)
+isAvailable (boolean)
+isVegetarian (boolean)
+sideOptions (array)
+numberOfStars (integer)
+
+
+methods
+
+useCoupon (subtracts 2 from the price attribute)
+addSide (adds a value to the sideOptions array)
+removeSide (removes a value from the sideOptions array)
+makeVegetarian (changes value of isVegetarian to true)
+spoilLettuce (changes value of isAvailable to false)
+changeName (updates the name attribute with a new string)
