@@ -1,0 +1,17 @@
+var food = "tacos";
+
+var isDelicious = true;
+
+food = "burritos";
+
+var num2 = 2;
+
+var num7 = 10;
+
+var quotient = num7 / num2;
+
+var songs = ["Mary Had a Little Lamb", "The Wheels on the Bus", "Twinkle Twinkle Little Star"];
+
+songs.shift();
+
+food.length;
