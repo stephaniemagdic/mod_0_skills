@@ -1,0 +1,19 @@
+Table class
+
+attributes
+
+isOpen (boolean)
+isDirty (boolean)
+location (string)
+number (integer)
+assignedTo (string)
+placements (array)
+
+
+methods
+
+seatCustomer (changes isOpen value to false)
+clean (changes isDirty value to false)
+assign (updates value in assignedTo attribute)
+relocate (updates value in location attribute and updates (table) number attribute)
+spill (changes isDirty to true)
