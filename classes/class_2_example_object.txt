@@ -1,0 +1,19 @@
+tableFour instance
+
+attributes
+
+isOpen = true
+isDirty = false
+location = "west dining"
+number = 4
+assignedTo = "Marty"
+placements = ["4 menus", "candle", "special's stand", "4 rolls of silverware"]
+
+
+methods
+
+seatCustomer: isOpen = false
+clean: isDirty = false
+assign: assignedTo = "Larissah"
+relocate: location = "party room" &  number = 22
+spill: isDirty = true
