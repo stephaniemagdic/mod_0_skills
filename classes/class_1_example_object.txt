@@ -1,0 +1,20 @@
+chefsSalad (instance)
+
+attributes
+
+name = "Chef's Classic"
+price = 12.99
+isAvailable = true
+isVegetarian = false
+sideOptions = ["soup of the day", "choice of classic roll or chips"]
+numberOfStars = 5
+
+
+methods
+
+useCoupon: price = 10.99
+addSide: sideOptions = ["soup of the day", "choice of classic roll or chips", "chili"]
+removeSide: sideOptions = ["soup of the day", "chili"]
+makeVegetarian: isVegetarian = true
+spoilLettuce: isAvailable = false
+changeName: name = "Chef's Delight"
